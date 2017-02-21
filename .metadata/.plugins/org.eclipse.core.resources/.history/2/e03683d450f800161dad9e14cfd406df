@@ -1,0 +1,10 @@
+package br.com.caelum.livrariaBean;
+
+import javax.annotation.ManagedBean;
+
+@ManagedBean
+public class LivroBean {
+	public void gravar(){
+		System.out.println("Gravando livro");
+	}
+}

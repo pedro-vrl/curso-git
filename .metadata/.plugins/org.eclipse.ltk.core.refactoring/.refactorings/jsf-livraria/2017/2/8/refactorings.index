@@ -1,0 +1,6 @@
+1487692780949	Delete element
+1487693847088	Encapsulate field 'titulo'
+1487693853994	Encapsulate field 'isbn'
+1487693857418	Encapsulate field 'preco'
+1487693860867	Encapsulate field 'dataLancamento'
+1487694367254	Extract Class...

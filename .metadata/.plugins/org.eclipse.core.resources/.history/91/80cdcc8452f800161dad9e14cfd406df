@@ -1,0 +1,45 @@
+package br.com.caelum.livrariaBean;
+
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean
+public class LivroBean {
+
+	private Livro data = new Livro();
+
+	public void gravar() {
+		System.out.println("Gravando livro " + this.data.getTitulo());
+	}
+
+	public String getTitulo() {
+		return data.getTitulo();
+	}
+
+	public void setTitulo(String titulo) {
+		this.data.setTitulo(titulo);
+	}
+
+	public String getIsbn() {
+		return data.getIsbn();
+	}
+
+	public void setIsbn(String isbn) {
+		this.data.setIsbn(isbn);
+	}
+
+	public double getPreco() {
+		return data.getPreco();
+	}
+
+	public void setPreco(double preco) {
+		this.data.setPreco(preco);
+	}
+
+	public String getDataLancamento() {
+		return data.getDataLancamento();
+	}
+
+	public void setDataLancamento(String dataLancamento) {
+		this.data.setDataLancamento(dataLancamento);
+	}
+}

@@ -1,0 +1,25 @@
+package br.com.caelum.livraria.dao;
+
+import java.sql.Connection;
+
+import com.mysql.jdbc.PreparedStatement;
+
+import br.com.triadworks.jdbc.ConnectionFactory;
+
+public class AutorDAO {
+	private Connection conexao;
+	
+	public AutorDAO(){
+		this.conexao = new ConnectionFactory().getConnection();
+		
+	}
+	
+	public void adiciona() {
+		String sql = "insert into autor" + 
+				"(nome)" + 
+				"values (?)"; 
+		PreparedStatement pstmt = conexao.prepareStatement(sql);
+	}
+	
+		
+}

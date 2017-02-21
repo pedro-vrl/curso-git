@@ -1,0 +1,34 @@
+package br.com.caelum.livraria.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import br.com.caelum.livraria.modelo.Autor;
+import br.com.triadworks.jdbc.ConnectionFactory;
+
+public class AutorDAO {
+	private Connection conexao;
+	
+	public AutorDAO(){
+		this.conexao = new ConnectionFactory().getConnection();
+		
+	}
+	public void adiciona(Autor autor) {
+		String sql = "insert into autor" + 
+				"(nome)" + 
+				"values (?)"; 
+		try {
+			PreparedStatement pstmt = conexao.prepareStatement(sql);
+			
+			pstmt.setString(1, autor.getNome());
+			pstmt.execute();
+			pstmt.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			throw new RuntimeException(e);
+		}
+	}
+	
+		
+}
