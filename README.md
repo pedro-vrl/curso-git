@@ -1,1 +1,1 @@
-# curso-git
+# primeiro-projeto-jsf
