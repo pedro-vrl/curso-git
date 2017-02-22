@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;br.com.caelum.livraria.bean.LivroBean.autorId&apos; in &apos;br.com.caelum.livraria.bean.LivroBean&apos;&#x0D;&#x0A;- Original project: &apos;livraria&apos;&#x0D;&#x0A;- Original element: &apos;br.com.caelum.livraria.bean.LivroBean.autorId&apos;&#x0D;&#x0A;- Getter method name: &apos;getAutorId&apos;&#x0D;&#x0A;- Setter method name: &apos;setAutorId&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;autorId&apos;" flags="589830" getter="getAutorId" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;br.com.caelum.livraria.bean{LivroBean.java[LivroBean^autorId" insertion="2" setter="setAutorId" stamp="1487805764528" version="1.0" visibility="1"/>
+</session>

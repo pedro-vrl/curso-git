@@ -7,4 +7,6 @@
 <fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 <fullyQualifiedTypeName name="br.com.caelum.livraria.dao.AutorDAO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
 </qualifiedTypeNameHistroy>
